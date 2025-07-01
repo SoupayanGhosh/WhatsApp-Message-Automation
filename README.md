@@ -40,6 +40,19 @@ This project brings together several modern technologies and open-source librari
 - A WhatsApp account
 - **API key for your preferred AI provider (e.g., DeepSeek, GPT, Gemini, Llama ,Claude, etc.)**
 
+## Environment Setup: Storing Your API Key
+
+Before running the project, you need to create a `.env` file in the root directory to securely store your API key. This file should **not** be committed to version control if it contains real secrets.
+
+1. In your project root, create a file named `.env`.
+2. Add the following line, replacing the placeholder with your actual API key:
+   ```
+   DEEPSEEK_API_KEY=your-deepseek-api-key-here
+   ```
+   > If you use a different AI provider, use the appropriate environment variable name as required by your provider (e.g., `OPENAI_API_KEY`, `GEMINI_API_KEY`, etc.).
+
+3. Save the file. The application will automatically load this key at startup.
+
 ## Setup
 
 Follow these steps to set up WhatsApp Message Automation:
@@ -59,9 +72,9 @@ Follow these steps to set up WhatsApp Message Automation:
    - Create a `.env` file in the root directory.
    - Add your AI provider API key. For example:
      ```
-     AI_API_KEY=your_api_key_here
+     DEEPSEEK_API_KEY=your-deepseek-api-key-here
      ```
-     > Replace `AI_API_KEY` with the correct variable name if your provider requires a specific one (e.g., `DEEPSEEK_API_KEY`, `OPENAI_API_KEY`, etc.).
+     > Replace `DEEPSEEK_API_KEY` with the correct variable name if your provider requires a specific one (e.g., `OPENAI_API_KEY`, etc.).
 
 4. **Start the bot:**
    ```bash
@@ -96,9 +109,9 @@ npm install
 
 3. Create a `.env` file in the root directory and add your API key. For example:
 ```
-AI_API_KEY=your_api_key_here
+DEEPSEEK_API_KEY=your-deepseek-api-key-here
 ```
-> Replace `AI_API_KEY` with the appropriate environment variable name if your provider requires a specific one (e.g., `DEEPSEEK_API_KEY`, `OPENAI_API_KEY`, etc.).
+> Replace `DEEPSEEK_API_KEY` with the appropriate environment variable name if your provider requires a specific one (e.g., `OPENAI_API_KEY`, etc.).
 
 ## Usage
 
