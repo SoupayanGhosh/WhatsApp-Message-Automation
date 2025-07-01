@@ -1,5 +1,5 @@
 # WhatsApp Message Automation
-<<<<<<< HEAD
+
 
 Welcome! 👋
 
