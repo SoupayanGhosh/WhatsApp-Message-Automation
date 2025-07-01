@@ -1,4 +1,5 @@
 # WhatsApp Message Automation
+<<<<<<< HEAD
 
 Welcome! 👋
 
@@ -217,3 +218,14 @@ Call `printAllMessages()` from your code to see the data in your terminal.
 
 **Tip:**
 If you ever want to export your data (e.g., to CSV), both the CLI and GUI tools offer export options.
+=======
+ Automated WhatsApp Messaging Solution
+ How to run it:
+
+1. Open PowerShell.
+2. Navigate to the project directory:
+3. Run the application:
+4. Scan the QR code displayed in the PowerShell terminal with your WhatsApp to link the device.
+
+After linking the device, the chatbot will be ready to send automatic replies.
+>>>>>>> e7910348aaefeea74ad26dfc3028ad0d005c0c48
